@@ -20,7 +20,13 @@
         </select>
         <button type="submit">LOAD</button>
 	</form>
-    <button type="button" ng-click="loadShape()">DRAW</button>
-    <canvas id=drawing width="1366" height="768"/>            
+    <button type="button" ng-click="loadShape()">DRAW CANVAS</button>
+    <canvas id=drawing width="1366" height="768"></canvas>
+    
+    
+    <svg id="svgd" height="1366" width="768">
+    </svg>
+    </br>
+    <button id="svgdraw" type="button" ng-click="loadSvg()">DRAW SVG</button>            
     </body>
 </html>
